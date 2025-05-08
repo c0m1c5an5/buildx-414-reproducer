@@ -6,6 +6,11 @@ as their context. The `pkg-cache` context seems to be important, as without it, 
 not reproduce.
 
 See `docker-bake.hcl` to configure the proper registry connection and caching by setting environment variables.
+| Variable          | Description                              |
+| ----------------- | ---------------------------------------- |
+| CI_REGISTRY_IMAGE | Registry repo.                           |
+| CI_DEFAULT_BRANCH | Default cache-from.                      |
+| CI_COMMIT_BRANCH  | Branch specific cache-from and cache-to. |
 
 It has been tested, fully reproducible every time with GitLab registry.
 To reproduce, run the command below multiple times:
