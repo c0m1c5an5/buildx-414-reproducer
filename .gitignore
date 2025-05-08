@@ -1,0 +1,11 @@
+.gitlab-ci-local
+.vscode
+.envrc
+.direnv
+.lprof
+.mypy_cache
+release_notes.md
+/bake-metadata.json
+/bake-metadata-*.json
+/manifest-metadata.jsonl
+bake_metadata.md

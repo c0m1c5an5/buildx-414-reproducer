@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <environment>
+    <id>custom-environment</id>
+    <name>Custom Operating System</name>
+    <description>Basic building block for a custom AlmaLinux system.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>standard</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>minimal-environment</id>
+    <name>Minimal Install</name>
+    <description>Basic functionality.</description>
+    <display_order>3</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>standard</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>server-product-environment</id>
+    <name>Server</name>
+    <description>An integrated, easy-to-manage server.</description>
+    <display_order>2</display_order>
+    <grouplist>
+      <groupid>container-management</groupid>
+      <groupid>core</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>server-product</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>debugging</groupid>
+      <groupid>dns-server</groupid>
+      <groupid>file-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>hardware-monitoring</groupid>
+      <groupid>infiniband</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>network-file-system-client</groupid>
+      <groupid>network-server</groupid>
+      <groupid>performance</groupid>
+      <groupid>remote-system-management</groupid>
+      <groupid>smb-server</groupid>
+      <groupid>virtualization-hypervisor</groupid>
+      <groupid>web-server</groupid>
+    </optionlist>
+  </environment>
+</comps>
